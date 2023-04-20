@@ -1,4 +1,11 @@
+.App {
+  margin: 60px auto;
+}
+
+.App .container {
+  margin: 0 auto;
+}
+
 .App footer {
-  font-size: 16px;
   text-align: center;
 }
