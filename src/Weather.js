@@ -8,7 +8,6 @@ export default function Weather(props) {
   let [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       city: response.data.name,
@@ -66,6 +65,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Fetching data😎";
+    return "Fetching data...";
   }
 }
