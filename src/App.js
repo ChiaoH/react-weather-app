@@ -24,6 +24,23 @@ export default function App() {
             open-sourced
           </a>
           .
+          <br />
+          Photo by{" "}
+          <a
+            href="https://unsplash.com/@tepapa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Museum of New Zealand Te Papa Tongarewa
+          </a>{" "}
+          on{" "}
+          <a
+            href="https://unsplash.com/photos/O6GOnACSjo4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Unsplash
+          </a>
         </footer>
       </div>
     </div>

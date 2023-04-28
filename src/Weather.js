@@ -68,6 +68,10 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Fetching data...";
+    return (
+      <div className="fetchingData">
+        <h1>Fetching data...</h1>
+      </div>
+    );
   }
 }

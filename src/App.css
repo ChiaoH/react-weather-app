@@ -1,5 +1,5 @@
 .App {
-  margin: 60px auto;
+  margin: 160px auto;
 }
 
 .App .container {
@@ -8,4 +8,13 @@
 
 .App footer {
   text-align: center;
+  font-size: 12px;
+  color: #402e32;
+}
+
+.App footer a {
+  color: #59896b;
+}
+.App footer a:visited {
+  color: #59896b;
 }

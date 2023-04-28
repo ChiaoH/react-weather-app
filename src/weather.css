@@ -1,13 +1,35 @@
 .Weather {
+  --primary-color-1: #7f6559;
+  --primary-color-2: #59896b;
+  --accent-color-1: #797654;
+  --accent-color-2: #402e32;
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+.Weather {
   border: 1px solid #e5e5e5;
   border-radius: 10px;
   margin: 30px auto;
-  padding: 34px;
+  padding: 45px;
   max-width: 700px;
+  background-image: url(images/background_scenery.jpg);
+  background-size: 140%;
+  background-position: right;
+}
+
+.Weather .form-control::placeholder {
+  color: var(--primary-color-1);
+}
+
+.Weather .btn {
+  background-color: var(--primary-color-2);
+  border: var(--primary-color-2);
 }
 
 .Weather h1 {
-  color: #70757a;
+  color: var(--primary-color-2);
+  font-family: var(--primary-font);
   display: inline-block;
   font-size: 48px;
   letter-spacing: 0;
@@ -19,7 +41,8 @@
 .Weather ul {
   list-style: none;
   padding: 0;
-  color: #70757a;
+  color: var(--accent-color-2);
+  font-family: var(--secondary-font);
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 20px;
@@ -61,7 +84,28 @@
   margin-left: 10px;
 }
 
-.Weather .fetchingData {
+.fetchingData {
   font-size: 650px;
-  margin: 200px auto;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  font-family: var(--primary-font);
+}
+
+/*WeatherInfo*/
+.WeatherInfo .font-weight-bold {
+  font-weight: 800;
+}
+
+/*CurrentTemp*/
+.CurrentTemp .temperature {
+  color: var(--accent-color-2);
+  text-shadow: 2px 2px 4px #fef9d7;
+}
+
+.CurrentTemp .unit {
+  color: var(--accent-color-2);
+}
+.CurrentTemp a {
+  color: var(--accent-color-1);
 }

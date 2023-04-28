@@ -1,1 +1,12 @@
+.WeatherIcon {
+  --primary-color-1: #7f6559;
+  --primary-color-2: #59896b;
+  --accent-color-1: #797654;
+  --accent-color-2: #402e32;
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto", sans-serif;
+}
 
+.WeatherIcon {
+  color: var(--accent-color-1);
+}
